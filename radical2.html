@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<center><h1>Radical</h1></center>
+<style>
+#grad {
+    height: 300px;
+    width: 300px;
+  background-image: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+  border-radius: 50%;
+  transition: transform .7s;
+}
+
+#grad:hover {
+  transform: rotate(360deg);
+}
+
+  
+</style>
+
+<body>
+    <center><div id="grad"></div></center>
+   <center> <h3>Touch me</h3></center>
+</body>
+</html>
